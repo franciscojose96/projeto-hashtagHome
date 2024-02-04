@@ -22,6 +22,14 @@ p {
 strong {
     font-weight: 600;
 }
+
+.button {
+    font-size: 24px;
+    width: 100%;
+    font-weight: 700;
+    text-decoration: none;
+
+}
 /* Cabeçalho */
 
 .li-header a {
@@ -111,5 +119,50 @@ strong {
     text-decoration: none;
 }
 
+/* Patrocinadores */
+
+
+
+/* Depoimentos */
+
+
+
+/* Blog da Hashtag */
+
+.blog-postadoem {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.blog-postadoem a{
+    color: #f7a70c;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.blog-tittle-post{
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.text-post{
+    font-size: 17px;
+}
+
+/* Como posso ajudar */
+
+.text-help{
+    font-size: 19px;
+}
+
+.text-help b {
+    font-weight: 600;
+}
+
+.text-help-link{
+    color: #008ff7;
+    font-weight: 600;
+}
 
 
