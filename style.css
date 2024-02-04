@@ -1,0 +1,72 @@
+/* Estilos globais */
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+    font-family: "Montserrat", sans-serif;
+    color: #404040;
+}
+
+/* Cabeçalho */
+
+.li-header a {
+    font-size: 14px;
+    color: #112e61;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-weight: 600;
+}
+
+/* Seção Hero */
+
+h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.paragrafo-home{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.link-button-home {
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+}
+
+.sub-tittle {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.sub-tittle span{
+    color: #7a40be;
+    font-weight: 600;
+}
+
+.tittle-contents {
+    font-size: 23px;
+    color: #000;
+    font-weight: 600;
+}
+
+.media-tittle-contents ul, a, li {
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 19px ;
+    color: #0056b3;
+}
+
+.tittle-reference {
+    color: #000;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.tittle-reference-paragraph {
+    color: black;
+    font-weight: 360;
+
+}
+
+
+
