@@ -30,6 +30,10 @@ strong {
     text-decoration: none;
 
 }
+
+.realce-semibold{
+    font-weight: 600;
+}
 /* Cabeçalho */
 
 .li-header a {
@@ -156,13 +160,11 @@ strong {
     font-size: 19px;
 }
 
-.text-help b {
-    font-weight: 600;
-}
-
 .text-help-link{
     color: #008ff7;
     font-weight: 600;
 }
+
+/* Cadastre-se */
 
 
