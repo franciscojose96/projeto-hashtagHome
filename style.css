@@ -1,30 +1,115 @@
+/* Sistema de Tamanhos - https://typescale.com/ 
+
+Fontes - Minor Third - 1.200 - Em PX
+4.4 - 5.4 - 6.4 - 7.7 - 9.2 - 11.1 - 13.3 - 16 - 19.2 - 23 - 27.6 - 33.2 - 39.8 - 47.8 - 57.3 - 68.8 - 82.6
+
+Espaçamentos - Major Third - 1.250 - Em PX
+2.1 - 2.7 - 3.3 - 4.2 - 5.2 - 6.5 - 8.2 - 10.2 - 12.8 - 16 - 20 - 25 - 31.2 - 39 - 48.8 - 61 - 76.3 - 95.4 - 119.2
+
+*/
+
 /* Estilos globais */
 
-h1, h2, h3, h4, h5, h6, p, li, a {
-    font-family: "Montserrat", sans-serif;
-    color: #404040;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #404040;
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+
+/* h1, h2, h3, h4, h5, h6, p, li, a {
+    font-family: "Montserrat", sans-serif;
+    color: #404040;
+} */
+
 h1 {
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 600;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 400;
 }
 
 p {
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 strong {
     font-weight: 600;
 }
 
+
+/* Cabeçalho */
+
+.cabecalho{
+    padding: 1.6rem 3.12rem;
+    box-shadow: 0 0.21rem 0.6rem rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+/* Temporario */
+nav {
+    display: none;
+}
+
+nav ul{
+    list-style: none;
+}
+
+.li-header a {
+    font-size: 1.4rem;
+    color: #112e61;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-weight: 600;
+    left: 50%;
+}
+
+
+.paragrafo-home{
+    font-size: 1.9rem;
+    font-weight: 400;
+}
+
+.link-button-home {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+
+/* a:link, a:visited{
+
+} */
+
+a:hover,:active{
+    color: #f60;
+}
+
+.li-header.contem-filhos::after{
+    content: "\2bc6";
+}
+
+/* Seção Hero */
+
+
 .button {
-    font-size: 24px;
+    font-size: 2.4rem;
     width: 100%;
     font-weight: 700;
     text-decoration: none;
@@ -33,35 +118,11 @@ strong {
 .realce-semibold{
     font-weight: 600;
 }
-/* Cabeçalho */
-
-.li-header a {
-    font-size: 14px;
-    color: #112e61;
-    text-transform: uppercase;
-    text-decoration:none;
-    font-weight: 600;
-}
-
-/* Seção Hero */
-
-
-.paragrafo-home{
-    font-size: 19px;
-    font-weight: 400;
-}
-
-.link-button-home {
-    font-size: 24px;
-    font-weight: 700;
-    color: #000;
-    text-decoration: none;
-}
 
 /* Seção conteúdos gratuitos */
 
 /* .free-h2 {
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 400;
 } */
 
@@ -71,13 +132,13 @@ strong {
 }
 
 .free-h3 {
-    font-size: 23px;
+    font-size: 2.3rem;
     color: #000;
     font-weight: 700;
 }
 
 .media-tittle-contents {
-    font-size: 19px;
+    font-size: 1.9rem;
     text-decoration: none;
     font-weight: 400;
 }
@@ -86,7 +147,7 @@ strong {
 
 .tittle-reference {
     color: #000;
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 400;
 }
 
@@ -95,24 +156,24 @@ strong {
 }
 
 .tittle-reference-paragraph {
-    font-size: 19px;
+    font-size: 1.9rem;
     color: black;
 }
 
 .subtittle-h3-home {
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #005e88;
     font-weight: 600;
 
 }
 
 .text-differences-home{
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
 .diferenciais-h3-empresas{
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 400;
 }
 
@@ -133,7 +194,7 @@ strong {
 /* Blog da Hashtag */
 
 .blog-postadoem {
-    font-size: 15px;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
@@ -144,19 +205,19 @@ strong {
 }
 
 .blog-tittle-post{
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 600;
     text-decoration: none;
 }
 
 .text-post{
-    font-size: 17px;
+    font-size: 1.7rem;
 }
 
 /* Como posso ajudar */
 
 .text-help{
-    font-size: 19px;
+    font-size: 1.9rem;
 }
 
 .text-help-link{
@@ -169,21 +230,21 @@ strong {
 /* Rodapé */
 
 .rodape{
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 600;
 }
 
 .curso-online-rodape{
-    font-size: 20px;
+    font-size: 2.0rem;
 }
 
 .rodape-subtittle{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 500;
 }
 
 .link-rodape{
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #1a77a4;
     font-weight: 500;
 }
