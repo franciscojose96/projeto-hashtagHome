@@ -249,3 +249,10 @@ a:hover,:active{
     font-weight: 500;
 }
 
+.button-wpp{
+    position: fixed;
+    bottom: 1rem;
+    left: 147rem;
+    width: 8.5rem;
+}
+
