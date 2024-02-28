@@ -33,7 +33,8 @@ body {
 } */
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 3.32rem;
+    line-height: 1;
     font-weight: 600;
 }
 
@@ -48,6 +49,21 @@ p {
 
 strong {
     font-weight: 600;
+}
+
+.secao {
+    padding: 7.63rem 2rem;
+}
+
+.button {
+    display: inline-block;
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.65rem 1.5rem;
+    color: white;
+    border-radius: 3rem;
+    box-shadow: 0 0.21rem 0.8rem rgba(0, 0, 0, 0.15);
 }
 
 
@@ -81,11 +97,6 @@ nav ul{
 }
 
 
-.paragrafo-home{
-    font-size: 1.9rem;
-    font-weight: 400;
-}
-
 .link-button-home {
     font-size: 2.4rem;
     font-weight: 700;
@@ -93,9 +104,6 @@ nav ul{
     text-decoration: none;
 }
 
-/* a:link, a:visited{
-
-} */
 
 a:hover,:active{
     color: #f60;
@@ -107,12 +115,41 @@ a:hover,:active{
 
 /* Seção Hero */
 
+.secao-hero{
+    background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-01.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-.button {
-    font-size: 2.4rem;
-    width: 100%;
-    font-weight: 700;
-    text-decoration: none;
+.contenier{
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.hero-button{
+    background-image: linear-gradient(180deg,#ff645e,#ff9253);
+    border-bottom: solid 0.4rem #993c38;
+    border-right: solid 0.4rem #993c38;
+}
+
+.hero-button:hover{
+    background-image: linear-gradient(180deg,white,white);
+    border-bottom: solid 0.4rem white;
+    border-right: solid 0.4rem white;
+    color: #993c38;
+}
+
+.hero-paragrafo{
+    font-size: 1.92rem;
+    line-height: 1.3;
+}
+
+.ifreme-video {
+    display: none;
+    aspect-ratio: 16/9;
+    width: 42rem;
+    border-radius: 2.5rem;
 }
 
 .realce-semibold{
