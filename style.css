@@ -39,7 +39,8 @@ h1 {
 }
 
 h2 {
-    font-size: 3.5rem;
+    font-size: 2.76rem;
+    line-height: 1.1;
     font-weight: 400;
 }
 
@@ -158,10 +159,48 @@ a:hover,:active{
 
 /* Seção conteúdos gratuitos */
 
-/* .free-h2 {
-    font-size: 3.5rem;
-    font-weight: 400;
-} */
+
+.secao-conteudos {
+    background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-02.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.caixa-curso-hashtag {
+    box-shadow: inset 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
+    border-radius: 2.5rem;
+    padding: 2rem;
+}
+
+.caixa-gratuito-h3{
+    background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
+    display: inline-block;
+    padding: 0.42rem 1.06rem;
+    color: #fff;
+    border-radius: 1rem;
+    transform: rotate(-2deg);
+    box-shadow: 0 0.21rem 0.6rem rgba(0, 0, 0, 0.15);
+}
+
+.circulo-logo-curso {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0.8rem 0.6rem rgba(0, 0, 0, 0.15);
+    padding: 0.52rem;
+    width: rem;
+    height: 3rem;
+}
+
+.circulo-logo-curso img {
+    width: 100%;
+}
+
+.img-conteudos{
+    width: 44rem;
+}
 
 .free-span{
     color: #7a40be;
@@ -170,7 +209,6 @@ a:hover,:active{
 
 .free-h3 {
     font-size: 2.3rem;
-    color: #000;
     font-weight: 700;
 }
 
