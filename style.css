@@ -160,6 +160,10 @@ a:hover,:active{
 
 /* Seção conteúdos gratuitos */
 
+.free-span{
+    color: #7a40be;
+    font-weight: 600;
+}
 
 .secao-conteudos {
     background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-02.png);
@@ -168,6 +172,10 @@ a:hover,:active{
     background-size: cover;
 }
 
+.free-h3 {
+    font-size: 2.3rem;
+    font-weight: 700;
+}
 
 .caixa-curso-hashtag {
     position: relative;
@@ -206,17 +214,6 @@ a:hover,:active{
 .img-conteudos{
     width: 44rem;
 }
-
-.free-span{
-    color: #7a40be;
-    font-weight: 600;
-}
-
- .free-h3 {
-    font-size: 2.3rem;
-    font-weight: 700;
-}
-/* Não entendi onde ele está alterando, aparentemente está conflitando com a class caixa-curso-hashtag */
 
 .gratuito-link-lista:link,
 .gratuito-link-lista:visited{
