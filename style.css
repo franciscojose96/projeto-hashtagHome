@@ -1,12 +1,4 @@
-/* Sistema de Tamanhos - https://typescale.com/ 
 
-Fontes - Minor Third - 1.200 - Em PX
-4.4 - 5.4 - 6.4 - 7.7 - 9.2 - 11.1 - 13.3 - 16 - 19.2 - 23 - 27.6 - 33.2 - 39.8 - 47.8 - 57.3 - 68.8 - 82.6
-
-Espaçamentos - Major Third - 1.250 - Em PX
-2.1 - 2.7 - 3.3 - 4.2 - 5.2 - 6.5 - 8.2 - 10.2 - 12.8 - 16 - 20 - 25 - 31.2 - 39 - 48.8 - 61 - 76.3 - 95.4 - 119.2
-
-*/
 
 /* Estilos globais */
 
@@ -65,7 +57,7 @@ ul{
     font-size: 2.4rem;
     font-weight: 700;
     text-decoration: none;
-    padding: 0.65rem 1.5rem;
+    padding: 0.82rem 2.5rem;
     color: white;
     border-radius: 3rem;
     box-shadow: 0 0.21rem 0.8rem rgba(0, 0, 0, 0.15);
@@ -83,7 +75,7 @@ ul{
     background-color: white;
 }
 
-/* Temporario */
+/* Temporario*/
 nav {
     display: none;
 }
@@ -143,8 +135,8 @@ a:hover,:active{
 }
 
 .hero-paragrafo{
-    font-size: 2.3rem;
-    line-height: 1.4;
+    font-size: 1.92rem;
+    line-height: 1.3;
 }
 
 .ifreme-video {
@@ -199,7 +191,7 @@ a:hover,:active{
 
 .circulo-logo-curso {
     display: inline-block;
-    background-color: #fff;
+    background-color: #e7e7e7;
     border-radius: 50%;
     box-shadow: inset 0 0 0.8rem 0.8rem rgba(0, 0, 0, 0.15);
     padding: 0.7rem;
@@ -220,7 +212,7 @@ a:hover,:active{
     display:inline-block;
     padding: 0.42rem 3.12rem;
     background-color: #eee;
-    border-radius: 1.5rem;
+    border-radius: 2.5rem;
     line-height: 1.1;
     box-shadow: inset 0 0 6px 2px rgba(0,0,0,.1);
     /* font-size: 1.92; EU VI QUE APARENTEMENTE N MUDAVA NADA*/
