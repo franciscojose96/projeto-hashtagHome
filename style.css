@@ -68,6 +68,7 @@ ul{
 
 .cabecalho{
     padding: 1.6rem 3.12rem;
+    z-index: 9999;
     box-shadow: 0 0.21rem 0.6rem rgba(0, 0, 0, 0.15);
     position: sticky;
     top: 0;
@@ -116,7 +117,7 @@ a:hover,:active{
     background-size: cover;
 }
 
-.contenier{
+.conteiner{
     max-width: 100rem;
     margin: 0 auto;
 }
@@ -237,8 +238,31 @@ a:hover,:active{
     background-color: #f4f5f7 ;
 }
 
-.tittle-reference {
-    color: #000;
+.conteiner-diferenciais{
+    border-radius: 5rem;
+    background-color: white;
+    box-shadow: inset 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+}
+
+.caixa-titulo-diferenciais{
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    padding: 4.88rem;
+    background-image: linear-gradient(225deg, #196b9f, #1a82a7);
+    color: white;
+}
+
+.caixa-restante-diferenciais{
+    padding: 4.88rem;
+}
+
+.caixa-diferencias-h2{
+    border-left: solid 0.4rem #ffb20f;
+    padding: 0.52rem 0 0.52rem 2rem;
+}
+
+.diferenciais-h2 {
+    /* color: #000; */
     font-size: 3.5rem;
     font-weight: 400;
 }
@@ -249,14 +273,13 @@ a:hover,:active{
 
 .tittle-reference-paragraph {
     font-size: 1.92rem;
-    color: black;
+    /* color: black; */
 }
 
 .subtittle-h3-home {
     font-size: 2.4rem;
     color: #005e88;
     font-weight: 600;
-
 }
 
 .text-differences-home{
@@ -274,6 +297,7 @@ a:hover,:active{
     font-weight: 700;
     text-decoration: none;
 }
+
 
 /* Patrocinadores */
 
