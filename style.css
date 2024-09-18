@@ -372,6 +372,9 @@ opacity: 60%;
 }
 
 .oquefalam-carrossel-img{
+    cursor: pointer;
+    background-color: #7489af;
+    background-blend-mode: multiply;
     position: relative;
     display: inline-block;
     background-position: 50%;
@@ -382,6 +385,7 @@ opacity: 60%;
 }
 
 .oquefalam-seta{
+    cursor: pointer;
     position: absolute;
     top: 50%;
 }
@@ -418,6 +422,23 @@ opacity: 60%;
     top: 50%;
     transform: translate(-50%, -50%);
     width: 3rem;
+}
+
+.oquefalam-navegacao {
+
+}
+
+.itens-navegacao {
+    cursor: pointer;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #86a8bc ;
+}
+
+.ativa {
+    background-color: #17577f;
 }
 
 
