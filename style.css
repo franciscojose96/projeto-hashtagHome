@@ -317,7 +317,8 @@ a:hover{
 }
 
 .logo-loreal,
-.logo-disney{
+.logo-disney,
+.logo-animale{
 opacity: 60%;
 }
 
@@ -357,8 +358,67 @@ opacity: 60%;
 
 
 
-/* Depoimentos */
+/* Seção o que falam */
 
+.conteiner-secao-oquefalam{
+    background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-04.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-oquefalam-h2{
+    color: #fff;
+}
+
+.oquefalam-carrossel-img{
+    position: relative;
+    display: inline-block;
+    background-position: 50%;
+    background-size: cover;
+    aspect-ratio: 16/9;
+    width: 33%;
+    border-radius: 2.5rem;
+}
+
+.oquefalam-seta{
+    position: absolute;
+    top: 50%;
+}
+
+.depoimento-1{
+    background-image: url(http://i3.ytimg.com/vi/N_EZD04zmrw/hqdefault.jpg);
+}
+
+.depoimento-2{
+    background-image: url(http://i3.ytimg.com/vi/auqWeBJLJHY/hqdefault.jpg);
+}
+
+.depoimento-3{
+    background-image: url(http://i3.ytimg.com/vi/FD79IpCaM1Y/hqdefault.jpg);
+}
+
+.carrosel-oquefalam{
+    position: relative;
+}
+
+.seta--esquerda {
+    left: 0;
+    transform: translate(-150%, -65%);
+}
+
+.seta--direita {
+    right: 0;
+    transform: translate(160%, -65%);
+}
+
+.seta-player {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 3rem;
+}
 
 
 /* Blog da Hashtag */
