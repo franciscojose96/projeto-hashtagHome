@@ -46,7 +46,8 @@ h2 {
     font-weight: 400;
 }
 
-h3 {    
+h3,
+.blug-titulo-post {    
     font-size: 2.3rem;
     line-height: 1.3rem;
 }
@@ -74,6 +75,25 @@ ul{
     box-shadow: 0 0.21rem 0.8rem rgba(0, 0, 0, 0.15);
     border-bottom: solid 0.4rem #993c38;
     border-right: solid 0.4rem #993c38;
+}
+
+.conteiner-blog,
+.conteiner-diferenciais{
+    border-radius: 5rem;
+    box-shadow: inset 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+}
+
+.caixa-gratuito-h3,
+.caixa-blog-h2{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: inline-block;
+    padding: 0.42rem 1.06rem;
+    color: #fff;
+    border-radius: 1rem;
+    transform: rotate(-3deg) translate(-50%, -50%);
+    box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15);
 }
 
 
@@ -248,9 +268,8 @@ nav {
 }
 
 .conteiner-diferenciais{
-    border-radius: 5rem;
     background-color: white;
-    box-shadow: inset 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+    
 }
 
 .caixa-titulo-diferenciais{
@@ -468,9 +487,39 @@ opacity: 60%;
 
 /* Blog da Hashtag */
 
+.secao-blog {
+    background-color: #f4f5f7;
+}
+
+.conteiner-blog {
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 4.88rem;
+}
+
+.caixa-blog-h2 {
+    /* text-wrap: nowrap; */
+    width: max-content;
+    background-image: linear-gradient(90deg, #feb914, #f6a50b);
+    padding: 1.2, 3.12;
+}
+
+.caixa-post-blog {
+    display: inline-block;
+    border-radius: 2.5rem;
+    box-shadow: inset 0 0 0.4rem 0.5rem rgba(0, 0, 0, 0.15);
+    padding: 2rem;
+    width: 49%;
+
+}
+
+.caixa-post-blog img{
+    width: 100%;
+}
+
 .blog-postadoem {
-    font-size: 1.5rem;
-    text-decoration: none;
+    font-size: 1.33rem;
+    line-height: 1.5;
 }
 
 .blog-postadoem a{
@@ -479,15 +528,11 @@ opacity: 60%;
     text-decoration: none;
 }
 
-.blog-tittle-post{
-    font-size: 2.4rem;
+.blog-titulo-post{
     font-weight: 600;
     text-decoration: none;
 }
 
-.text-post{
-    font-size: 1.7rem;
-}
 
 /* Como posso ajudar */
 
