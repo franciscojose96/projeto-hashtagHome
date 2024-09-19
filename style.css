@@ -72,6 +72,8 @@ ul{
     color: white;
     border-radius: 3rem;
     box-shadow: 0 0.21rem 0.8rem rgba(0, 0, 0, 0.15);
+    border-bottom: solid 0.4rem #993c38;
+    border-right: solid 0.4rem #993c38;
 }
 
 
@@ -110,11 +112,6 @@ nav {
     text-decoration: none;
 }
 
-
-a:hover{
-    color: #f60;
-}
-
 .li-header.contem-filhos::after{
     content: "\2bc6";
 }
@@ -135,8 +132,6 @@ a:hover{
 
 .hero-button{
     background-image: linear-gradient(180deg,#ff645e,#ff9253);
-    border-bottom: solid 0.4rem #993c38;
-    border-right: solid 0.4rem #993c38;
 }
 
 .hero-button:hover{
@@ -425,7 +420,6 @@ opacity: 60%;
 }
 
 .oquefalam-navegacao {
-
 }
 
 .itens-navegacao {
@@ -437,8 +431,38 @@ opacity: 60%;
     background-color: #86a8bc ;
 }
 
-.ativa {
+.itens-navegacao.ativa {
     background-color: #17577f;
+}
+
+.botao-oquefalam {
+    background-image:linear-gradient(180deg, #196c9f, #1a80a7);
+    border-bottom: solid 0.4rem #14577f;
+    border-right: solid 0.4rem #14577f;
+}
+
+.botao-oquefalam:hover{
+    background-image: none;
+    background-color: #1a80a7;
+    border-bottom-color: #14577f;
+    border-right-color: #14577f;
+}
+
+
+/*Hashtag na mídia*/
+
+.secao-na-midia {
+    padding-top: 3.9rem;
+    padding-bottom: 3.9rem;
+    background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-Banner-05_1.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seta-na-midia,
+.h2-na-midia {
+    display: inline-block;
 }
 
 
