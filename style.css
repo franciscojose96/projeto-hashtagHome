@@ -120,20 +120,58 @@ input::placeholder{
 /* Cabeçalho */
 
 .cabecalho{
-    padding: 1.6rem 3.12rem;
-    z-index: 9999;
-    box-shadow: 0 0.21rem 0.6rem rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.12rem;
     position: sticky;
+    z-index: 9999;
     top: 0;
     left: 0;
     background-color: white;
+    padding: 1.6rem 3.12rem;
+    box-shadow: 0 0.21rem 0.6rem rgba(0, 0, 0, 0.15);
+    
 }
 
-/* Temporario*/
-nav {
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.contem-filhos {
+    position: relative;
+}
+
+.contem-filhos ul {
     display: none;
+    flex-flow: column;
+    gap: 0;
+    align-items: stretch;
+    width: max-content; /*  Esse propriedade faz com que o item dentro dela ocupe toda area sem quebrar linha */
+    position: absolute;
+    right: 0;
+    background-color: white;
+    padding: 1.28rem 0;
+    border-radius: 2.5rem;
+    box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0 , 0.15),
+        inset 0 0 0.4rem 0.1rem rgba(0, 0, 0, 0.1);
 }
 
+.contem-filhos ul li {
+    border-bottom: solid 0.1rem rgba(0, 0, 0, 0.10);
+    padding: 0.41rem 2rem;
+}
+
+.contem-filhos ul li:last-child {
+    border-bottom: none;
+}
+/*Se não tiver espaço no li:last-child o display none n vai funcionar*/
+
+.contem-filhos:hover ul {
+    display: flex;
+} 
 
 .li-header a {
     font-size: 1.4rem;
@@ -141,9 +179,19 @@ nav {
     text-transform: uppercase;
     text-decoration:none;
     font-weight: 600;
-    left: 50%;
 }
 
+.li-header a:hover,
+.li-header a:active {
+    color: #f60;
+}
+
+.li-header.contem-filhos::after{
+    content: "\2bc6";
+}
+
+
+/* Seção Hero */
 
 .link-button-home {
     font-size: 2.4rem;
@@ -151,12 +199,6 @@ nav {
     color: #000;
     text-decoration: none;
 }
-
-.li-header.contem-filhos::after{
-    content: "\2bc6";
-}
-
-/* Seção Hero */
 
 .secao-hero{
     background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-01.png);
