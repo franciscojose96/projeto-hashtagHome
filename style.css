@@ -1,0 +1,693 @@
+
+
+/* Estilos globais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+p {
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.6rem;
+    line-height: 1.1;
+}
+
+body {
+    background-color: #f4f5f7;
+    font-family: "Montserrat", sans-serif;
+    color: #404040;
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 3.32rem;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2.76rem;
+    line-height: 1.1;
+    font-weight: 400;
+}
+
+h3,
+.rodape-titulo,
+.blug-titulo-post {    
+    font-size: 2.3rem;
+    line-height: 1.2rem;
+}
+
+strong {
+    font-weight: 600;
+}
+
+input {
+    padding: 1.02rem;
+    background-color: white;
+    box-shadow: inset 0 0 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+    border: 0;
+    border-radius: 0.8rem;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: #404040;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder{
+    color: #757575;
+}
+
+.secao {
+    padding: 7.63rem 2rem;
+}
+
+.conteiner{
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+
+.button {
+    display: inline-block;
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 3rem;
+    padding: 0.65rem 2.5rem;
+    color: white;
+    box-shadow: 0 0.21rem 0.8rem rgba(0, 0, 0, 0.15);
+    border: 0;
+    border-bottom: solid 0.4rem #993c38;
+    border-right: solid 0.4rem #993c38;
+}
+
+.conteiner-blog,
+.conteiner-diferenciais{
+    border-radius: 5rem;
+    box-shadow: inset 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+}
+
+.caixa-gratuito-h3,
+.caixa-blog-h2{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: inline-block;
+    padding: 0.42rem 1.06rem;
+    color: #fff;
+    border-radius: 1rem;
+    transform: rotate(-3deg) translate(-50%, -50%);
+    box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15);
+}
+
+
+/* Cabeçalho */
+
+.cabecalho{
+    padding: 1.6rem 3.12rem;
+    z-index: 9999;
+    box-shadow: 0 0.21rem 0.6rem rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+/* Temporario*/
+nav {
+    display: none;
+}
+
+
+.li-header a {
+    font-size: 1.4rem;
+    color: #112e61;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-weight: 600;
+    left: 50%;
+}
+
+
+.link-button-home {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+
+.li-header.contem-filhos::after{
+    content: "\2bc6";
+}
+
+/* Seção Hero */
+
+.secao-hero{
+    background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-01.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-button{
+    background-image: linear-gradient(180deg,#ff645e,#ff9253);
+}
+
+.hero-button:hover{
+    border: solid 0.2rem #ff9253;
+    background-color: #ff9253;
+    background-image: none;
+}
+
+
+.ifreme-video {
+    /* display: none; */
+    aspect-ratio: 16/9;
+    width: 42rem;
+    border-radius: 2.5rem;
+}
+
+.realce-semibold{
+    font-weight: 600;
+}
+
+.rodape-subtitulo,
+.comoajudar-lista,
+.comoajduar-paragrafo,
+.diferenciais-p,
+.hero-paragrafo{
+    font-size: 1.92rem;
+    line-height: 1.3;
+}
+
+/* Seção conteúdos gratuitos */
+
+.free-span{
+    color: #7a40be;
+    font-weight: 600;
+}
+
+.secao-conteudos {
+    background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-02.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gratuito-h3 {
+    font-weight: 700;
+}
+
+.caixa-curso-hashtag {
+    position: relative;
+    box-shadow: inset 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
+    border-radius: 2.5rem;
+    padding: 2rem;
+}
+
+.caixa-gratuito-h3{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: inline-block;
+    padding: 0.42rem 1.06rem;
+    background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
+    color: #fff;
+    border-radius: 1rem;
+    transform: rotate(-2deg) translate(-50%, -50%);
+    box-shadow: 0 0.21rem 0.6rem rgba(0, 0, 0, 0.15);
+}
+
+.circulo-logo-curso {
+    display: inline-block;
+    background-color: #e7e7e7;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0.8rem 0.8rem rgba(0, 0, 0, 0.15);
+    padding: 0.7rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.circulo-logo-curso img {
+    width: 100%;
+}
+
+.img-conteudos{
+    width: 44rem;
+}
+
+.gratuito-link-lista:link,
+.gratuito-link-lista:visited{
+    display:inline-block;
+    padding: 0.42rem 3.12rem;
+    background-color: #eee;
+    border-radius: 2.5rem;
+    line-height: 1.3;
+    box-shadow: inset 0 0 6px 2px rgba(0,0,0,.1);
+    font-size: 1.92;
+    text-decoration: none;
+    color: inherit
+}
+
+.gratuito-link-lista:hover,
+.gratuito-link-lista:active{
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.logo-rede-social {
+    width: 1.8rem;
+}
+
+
+/* Seção diferenciais */
+
+
+.conteiner-diferenciais{
+    background-color: white;
+    
+}
+
+.caixa-titulo-diferenciais{
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    padding: 4.88rem;
+    background-image: linear-gradient(225deg, #196b9f, #1a82a7);
+    color: white;
+}
+
+.caixa-restante-diferenciais{
+    padding: 4.88rem;
+}
+
+.caixa-diferencias-h2{
+    border-left: solid 0.4rem #ffb20f;
+    padding: 0.52rem 0 0.52rem 2rem;
+}
+
+.diferenciais-h2 {
+    /* color: #000; */
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.caixa-itens-diferencias {
+    position: relative;
+    border-radius: 2.5rem;
+    box-shadow: 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+    padding: 3.12rem 2rem;
+    line-height: 7rem; /*Ajuste manual na caixa.*/
+}
+
+.caixa-imagem-diferenciais{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    border-radius: 1.5rem;
+    background-color: #ffaf00;
+    width: 10rem;
+    height: 10rem;
+    padding: 1.6rem;
+    box-shadow: inset 0 0 0.8rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.caixa-imagem-diferenciais img{
+    width: 100%;
+}
+
+.diferenciais-empresas img {
+    height: 4rem;
+    filter: grayscale(100%);
+}
+
+.logo-subsea{
+    opacity: 75%;
+}
+
+.logo-loreal,
+.logo-disney,
+.logo-animale{
+opacity: 60%;
+}
+
+.tittle-reference strong{
+    font-weight: 600;
+}
+
+.tittle-reference-paragraph {
+    font-size: 1.92rem;
+    /* color: black; */
+}
+
+.diferenciais-h3 {
+    color: #005e88;
+    font-weight: 600;
+}
+
+.text-differences-home{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.diferenciais-h3-empresas{
+    font-weight: 400;
+    line-height: 7rem; /*Ajuste manual*/
+}
+
+.diferenciais-h3-empresas a {
+    color: #005e88;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+
+/* Patrocinadores */
+
+
+
+/* Seção o que falam */
+
+.conteiner-secao-oquefalam{
+    background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-04.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-oquefalam-h2{
+    color: #fff;
+}
+
+.oquefalam-carrossel-img{
+    cursor: pointer;
+    background-color: #7489af;
+    background-blend-mode: multiply;
+    position: relative;
+    display: inline-block;
+    background-position: 50%;
+    background-size: cover;
+    aspect-ratio: 16/9;
+    width: 33%;
+    border-radius: 2.5rem;
+}
+
+.oquefalam-seta{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+}
+
+.depoimento-1{
+    background-image: url(http://i3.ytimg.com/vi/N_EZD04zmrw/hqdefault.jpg);
+}
+
+.depoimento-2{
+    background-image: url(http://i3.ytimg.com/vi/auqWeBJLJHY/hqdefault.jpg);
+}
+
+.depoimento-3{
+    background-image: url(http://i3.ytimg.com/vi/FD79IpCaM1Y/hqdefault.jpg);
+}
+
+.carrosel-oquefalam{
+    position: relative;
+}
+
+.seta--esquerda {
+    left: 0;
+    transform: translate(-150%, -65%);
+}
+
+.seta--direita {
+    right: 0;
+    transform: translate(160%, -65%);
+}
+
+.seta-player {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 3rem;
+}
+
+.itens-navegacao {
+    cursor: pointer;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #86a8bc ;
+}
+
+.itens-navegacao.ativa {
+    background-color: #17577f;
+}
+
+.botao-oquefalam {
+    background-image:linear-gradient(180deg, #196c9f, #1a80a7);
+    border-bottom: solid 0.4rem #14577f;
+    border-right: solid 0.4rem #14577f;
+}
+
+.botao-oquefalam:hover{
+    border: solid 0.2rem #1a77a4;
+    background-image: none;
+    background-color: #1a80a7;
+    
+}
+
+
+/*Hashtag na mídia*/
+
+.secao-na-midia {
+    padding-top: 3.9rem;
+    padding-bottom: 3.9rem;
+    background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-Banner-05_1.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seta-na-midia,
+.h2-na-midia {
+    display: inline-block;
+}
+
+
+/* Blog da Hashtag */
+
+.conteiner-blog {
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 4.88rem;
+}
+
+.caixa-blog-h2 {
+    /* text-wrap: nowrap; */
+    width: max-content;
+    background-image: linear-gradient(90deg, #feb914, #f6a50b);
+    padding: 1.2, 3.12;
+}
+
+.caixa-post-blog {
+    display: inline-block;
+    border-radius: 2.5rem;
+    box-shadow: inset 0 0 0.4rem 0.5rem rgba(0, 0, 0, 0.15);
+    padding: 2rem;
+    width: 49%;
+
+}
+
+.caixa-post-blog img{
+    width: 100%;
+}
+
+.blog-postadoem {
+    font-size: 1.33rem;
+    line-height: 1.5;
+}
+
+.blog-postadoem a{
+    color: #f7a70c;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.blog-titulo-post{
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+/* Como posso ajudar */
+
+.secao-comoajudar{
+    padding: 0;
+}
+
+.secao-sec-laranja {
+    background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-banner-07.png);
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.secao-sec-laranja,
+.secao-sec-cinza{
+    padding: 7.63rem 2rem;
+}
+
+.comoajudar-h2{
+    display: inline-block;
+    padding: 0.42rem 1.06rem;
+    color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15);
+    background-image: linear-gradient(90deg, #14a1d5, #1a5ad4);
+}
+
+.comoajudar-lista{
+    border-radius: 2.5rem;
+    box-shadow: inset 0 0 0.8rem 0.5rem rgba(0, 0, 0, 0.15);
+    padding: 2.5rem;
+    background-color: #f9f9f9;
+}
+
+.comoajudar-lista a:link,
+.comoajudar-lista a:visited,
+.comoajudar-paragrafo a:link,
+.comoajudar-paragrafo a:visited {
+    color: #008ff7;
+    font-weight: 600;
+}
+
+.comoajudar-lista a:hover,
+.comoajudar-lista a:active,
+.comoajudar-paragrafo a:hover,
+.comoajudar-paragrafo a:active {
+    color: #0056b3;
+}
+
+.comoajudar-paragrafo b{
+    font-weight: 600;
+}
+
+.text-help-link{
+    color: #008ff7;
+    font-weight: 600;
+}
+
+/* Cadastre-se */
+
+.secao-minicurso{
+    background-image: linear-gradient(90deg,#9e4ad7,#753db6);
+    color: white;
+}
+
+.botao-minicurso{ 
+    background-color: #ffba29;
+    border-bottom-color: #664a10;
+    border-right-color: #664a10;  
+}
+
+.botao-minicurso:hover{
+    border: solid 0.2rem #ffba29;
+    background-color: #ffba29;
+}
+
+
+/* Rodapé */
+
+.logo-footer {
+    width: 18rem;
+}
+
+.rodape-titulo,
+.rodape-subtitulo,
+.rodape-seg-titulo{
+    font-weight: 600;
+}
+
+
+.rodape-titulo {
+ font-size: 2.3rem;
+}
+
+.link-rodape{
+    font-size: 1.6rem;
+    color: #1a77a4;
+    font-weight: 500;
+}
+
+.rodape svg {
+    width: 2.4rem;
+}
+
+.links-redessociais:hover svg{
+    fill: #f90;
+    stroke: #f90;
+}
+
+.rodape a.links-redessociais:hover,
+.rodape a.links-redessociais:visited,
+.rodape a.links-redessociais:active,
+.rodape a.links-redessociais:link{
+    color:transparent;
+}
+
+
+.rodape a:hover{
+    color: #f60;
+    text-decoration: none;
+}
+
+.form-newslatter {
+    border-radius: 2.5rem;
+    box-shadow: inset 0 0 0.8rem 0.15rem rgb(0, 0, 0, 0.15);
+    padding: 2.5rem;
+    background-color: #fff;
+}
+
+.botao-newslatter{
+    background-color: #1a77a4;
+    border-bottom-color: #0c374d;
+    border-right-color: #0c374d; 
+}
+
+.botao-newslatter:hover{
+    border: solid 0.2rem #1a77a4;
+}
+
+.button-wpp{
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    width: 8.5rem;
+}
+
+.button-wpp:hover{
+    transform: translate(0.5rem, 0.5rem );
+    transition: 5;
+}
