@@ -200,6 +200,12 @@ nav ul {
     text-decoration: none;
 }
 
+.li-header.contem-filhos::after{
+    content: "\2bc6";
+}
+
+/* Seção Hero */
+
 .secao-hero{
     background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-01.png);
     background-position: 50%;
@@ -733,3 +739,5 @@ opacity: 60%;
     transform: translate(0.5rem, 0.5rem );
     transition: 5;
 }
+
+
