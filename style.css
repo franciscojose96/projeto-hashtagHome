@@ -283,11 +283,6 @@ nav ul {
 
 /* Seção conteúdos gratuitos */
 
-.free-span{
-    color: #7a40be;
-    font-weight: 600;
-}
-
 .secao-conteudos {
     background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-02.png);
     background-position: 50%;
@@ -299,20 +294,68 @@ nav ul {
     font-weight: 700;
 }
 
+.conteiner-gratuitos {
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-gratuito{
+    display: flex;
+}
+
+.free-span{
+    color: #7a40be;
+    font-weight: 600;
+}
+
+.conteudos-titulo {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.conteudos-caixa-logos {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.img-conteudos{
+    max-width: 47.8rem;
+    flex: 45rem;
+    position: relative;
+    z-index: 1;
+}
+
+.conteudo-colunas {
+    display: flex;
+    flex-flow: column;
+    gap: 3.9rem;
+    flex: 20;
+}
+
+.caixas-curso-hashtag{
+    display: flex;
+    gap: 2.5rem;
+}
+
 .caixa-curso-hashtag {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 1rem;
     position: relative;
     box-shadow: inset 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
     border-radius: 2.5rem;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .caixa-gratuito-h3{
+    background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
     position: absolute;
     top: 0;
     left: 50%;
     display: inline-block;
-    padding: 0.42rem 1.06rem;
-    background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
+    padding: 1rem 1.06rem;
     color: #fff;
     border-radius: 1rem;
     transform: rotate(-2deg) translate(-50%, -50%);
@@ -335,6 +378,20 @@ nav ul {
 
 .img-conteudos{
     width: 44rem;
+}
+
+
+
+.conteudos-lista-redes-sociais{
+    display: flex;
+    flex-flow: column;
+    gap: 0.65rem;
+}
+
+.gratuito-link-lista li {
+    display: flex;
+    align-items: center;
+    gap: 0.61;
 }
 
 .gratuito-link-lista:link,
