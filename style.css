@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.76rem;
+    font-size: 3.25rem;
     line-height: 1.1;
     font-weight: 400;
 }
@@ -781,9 +781,8 @@ opacity: 60%;
 .secao-sec-cinza{
     padding: 7.63rem 2rem;
 }
-
-.container-comoajudar,
-.container-comoajudar2 {
+.container-comoajudar2, 
+.container-comoajudar{
     width: 86rem;
 }
 
@@ -797,7 +796,7 @@ opacity: 60%;
     gap: 1.6rem;
 }
 
-.conteiner-comoajudar {
+.container-comoajudar{
     align-items: center;
     gap: 3.12rem;
 }
@@ -861,7 +860,34 @@ opacity: 60%;
     color: white;
 }
 
+.container-minicurso{
+    display: flex;
+    flex-flow: column;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.form-minicurso {
+    display: flex;
+    align-self: stretch;
+    align-items: end;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.form div {
+    display: flex;
+    flex-flow: column;
+    gap: 0.82rem;
+}
+
+.form div label {
+    margin-left: 0.8rem;
+}
+
 .botao-minicurso{ 
+    display: flex;
+    align-self: self-end;
     background-color: #ffba29;
     border-bottom-color: #664a10;
     border-right-color: #664a10;  
