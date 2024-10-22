@@ -557,10 +557,6 @@ opacity: 60%;
 
 
 
-/* Patrocinadores */
-
-
-
 /* Seção o que falam */
 
 .conteiner-secao-oquefalam{
@@ -570,12 +566,37 @@ opacity: 60%;
     background-size: cover;
 }
 
-.titulo-oquefalam-h2{
+.container-oquefalam{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 3.1rem;
+}
+
+.titulo-secao-oque-falam{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
     color: #fff;
 }
 
+.oquefalam-carrossel{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-self: stretch;
+    position: relative;
+    gap: 2rem;
+}
+
+.oquefalam-carrossel-imagens{
+    display: flex;
+    align-self: stretch;
+    gap: 2rem;
+}
+
 .oquefalam-carrossel-img{
-    cursor: pointer;
+    flex: 1;;
     background-color: #7489af;
     background-blend-mode: multiply;
     position: relative;
@@ -593,6 +614,11 @@ opacity: 60%;
     top: 50%;
 }
 
+.secao-oquefalam-depoimentos {
+    display: flex;
+    gap: 2rem;
+}
+
 .depoimento-1{
     background-image: url(http://i3.ytimg.com/vi/N_EZD04zmrw/hqdefault.jpg);
 }
@@ -603,10 +629,6 @@ opacity: 60%;
 
 .depoimento-3{
     background-image: url(http://i3.ytimg.com/vi/FD79IpCaM1Y/hqdefault.jpg);
-}
-
-.carrosel-oquefalam{
-    position: relative;
 }
 
 .seta--esquerda {
@@ -665,11 +687,18 @@ opacity: 60%;
     background-size: cover;
 }
 
-.seta-na-midia,
-.h2-na-midia {
-    display: inline-block;
+.conteiner-na-midia {
+    display: flex;
+    justify-content: space-around;
 }
 
+.titulo-na-midia,
+.canais-na-midia{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    letter-spacing: 0.1rem;
+}
 
 /* Blog da Hashtag */
 
