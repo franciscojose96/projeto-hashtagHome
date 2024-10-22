@@ -464,6 +464,7 @@ nav ul {
     border-radius: 2.5rem;
     box-shadow: 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
     padding: 7rem 2.5rem 3.12rem 2.5rem;
+    background-color: white;
 }
 
 .diferenciais-h2 {
@@ -471,14 +472,10 @@ nav ul {
     font-weight: 400;
 }
 
-.conteiner-caixas{
-    display: flex;
-}
-
 .caixa-item-diferencias{
     display: flex;
     flex-flow: column;
-    gap: 1.02srem;
+    gap: 1.0rem;
 }
 
 .caixa-imagem-diferenciais{
@@ -536,6 +533,8 @@ opacity: 60%;
 .diferenciais-h3 {
     color: #005e88;
     font-weight: 600;
+    line-height: 2rem;
+    
 }
 
 .diferenciais-h3-empresas{
