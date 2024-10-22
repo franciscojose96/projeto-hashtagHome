@@ -18,7 +18,7 @@ p {
     margin-block-end: 1rem;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 1.1;
 }
 
@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.76rem;
+    font-size: 3.25rem;
     line-height: 1.1;
     font-weight: 400;
 }
@@ -703,25 +703,43 @@ opacity: 60%;
 /* Blog da Hashtag */
 
 .conteiner-blog {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2.5rem;
     position: relative;
     background-color: #f9f9f9;
     padding: 4.88rem;
+    padding-top: 7.63rem;
+}
+
+.blog-bloco1 {
+    display: flex;
+    gap: 4.2rem;
 }
 
 .caixa-blog-h2 {
-    /* text-wrap: nowrap; */
+    top: -1rem;
     width: max-content;
     background-image: linear-gradient(90deg, #feb914, #f6a50b);
     padding: 1.2, 3.12;
 }
 
 .caixa-post-blog {
-    display: inline-block;
+    display: flex;
+    flex-flow: column;
+    flex: 1 1 35%;
+    gap: 1.28rem;
     border-radius: 2.5rem;
     box-shadow: inset 0 0 0.4rem 0.5rem rgba(0, 0, 0, 0.15);
     padding: 2rem;
     width: 49%;
 
+}
+
+.caixa-img-postado-em{
+    display: flex;
+    flex-flow: column;
+    gap: 0.42rem;
 }
 
 .caixa-post-blog img{
@@ -759,10 +777,28 @@ opacity: 60%;
     background-repeat: no-repeat;
 }
 
-
 .secao-sec-laranja,
 .secao-sec-cinza{
     padding: 7.63rem 2rem;
+}
+.container-comoajudar2, 
+.container-comoajudar{
+    width: 86rem;
+}
+
+.container-comoajudar,
+.container-comoajudar2{
+    display: flex;
+    flex-flow: column;
+}
+
+.container-comoajudar2{
+    gap: 1.6rem;
+}
+
+.container-comoajudar{
+    align-items: center;
+    gap: 3.12rem;
 }
 
 .comoajudar-h2{
@@ -775,6 +811,9 @@ opacity: 60%;
 }
 
 .comoajudar-lista{
+    display: flex;
+    flex-flow: column;
+    gap: 1.28rem;
     border-radius: 2.5rem;
     box-shadow: inset 0 0 0.8rem 0.5rem rgba(0, 0, 0, 0.15);
     padding: 2.5rem;
@@ -796,6 +835,15 @@ opacity: 60%;
     color: #0056b3;
 }
 
+.comoajudar-lista li {
+    display: flex;
+    align-items: start;
+    gap: 0.65rem;
+}
+.comoajudar-lista li img {
+    transform: translateY(40%);
+}
+
 .comoajudar-paragrafo b{
     font-weight: 600;
 }
@@ -812,7 +860,34 @@ opacity: 60%;
     color: white;
 }
 
+.container-minicurso{
+    display: flex;
+    flex-flow: column;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.form-minicurso {
+    display: flex;
+    align-self: stretch;
+    align-items: end;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.form div {
+    display: flex;
+    flex-flow: column;
+    gap: 0.82rem;
+}
+
+.form div label {
+    margin-left: 0.8rem;
+}
+
 .botao-minicurso{ 
+    display: flex;
+    align-self: self-end;
     background-color: #ffba29;
     border-bottom-color: #664a10;
     border-right-color: #664a10;  
