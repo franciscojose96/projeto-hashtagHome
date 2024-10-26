@@ -905,6 +905,46 @@ opacity: 60%;
     width: 18rem;
 }
 
+.subsecao-rodape,
+.secao-cursos-online,
+.subsecao-assistente,
+.rodape-div-icone-link,
+.rodape-coluna {
+    display: flex;
+    flex-flow: column;
+}
+
+.rodape-coluna {
+    gap: 2.5rem;
+}
+
+.subsecao-rodape{
+    gap: 1rem;
+}
+
+.secao-cursos-online {
+    gap: 0.60rem;
+}
+
+.subsecao-assistente{
+    gap: 1.02rem
+}
+
+.rodape-div-icone-link{
+    gap: 0.65rem
+}
+
+.rodape-icone-link{
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+}
+
+.rodape-redes-sociais {
+    display: flex;
+    gap: 0.82rem;
+}
+
 .rodape-titulo,
 .rodape-subtitulo,
 .rodape-seg-titulo{
@@ -924,6 +964,11 @@ opacity: 60%;
 
 .rodape svg {
     width: 2.4rem;
+}
+
+.links-redessociais svg{
+    fill: #404040;
+    stroke: #404040;
 }
 
 .links-redessociais:hover svg{
